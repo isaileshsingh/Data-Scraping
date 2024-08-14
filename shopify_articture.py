@@ -20,4 +20,4 @@ if __name__ == "__main__":
     root_url = "https://articture.com"
     data = scrape_bestsellers(root_url)
     df = pd.DataFrame(data)
-    df.to_csv("articture_bestsellers_csv", index=False)
+    df.to_csv("shopify_articture_csv", index=False)
